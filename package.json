@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "bamazon.js",
-  "dependencies": {
-    "inquirer": "^6.0.0",
-    "mysql": "^2.15.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/mleftakes/bamazon/issues"
   },
-  "homepage": "https://github.com/mleftakes/bamazon#readme"
+  "homepage": "https://github.com/mleftakes/bamazon#readme",
+  "keywords": [],
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
 }

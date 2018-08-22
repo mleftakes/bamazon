@@ -13,6 +13,8 @@ CREATE TABLE products (
   PRIMARY KEY (itemId)
 );
 
+SELECT * FROM products;
+
 INSERT INTO products (productName, departmentName, price, stockQuantity)
 VALUES ("Pencils", "supplies", 5, 100);
 
@@ -42,3 +44,4 @@ VALUES ("shirts", 'clothes', 9, 121);
 
 INSERT INTO products (productName, departmentName, price, stockQuantity)
 VALUES ("pants", 'clothes', 45, 342);
+
